@@ -1,21 +1,21 @@
-## Ham Radio Callsign Lookup
+# Ham Radio Callsign Lookup
 This is a Python script that retrieves and displays information about a FCC radio callsign using the FCC Universal Licensing System API. The script looks up all data fields associated with the given callsign and checks if the license is currently active and not expired.
 
 Ham Radio Callsign Lookup
 This is a Python script that retrieves and displays information about a ham radio callsign using the FCC Universal Licensing System API. The script looks up all data fields associated with the given callsign and checks if the license is currently active and not expired.
 
-# Requirements
+## Requirements
 Python 3
 requests, json, datetime, and sys modules 
 
-# Usage
+## Usage
 Clone this repository or download callsign.py.
 Install the modules using pip.
 Open a terminal or command prompt in the directory where callsign.py is located.
 Run the script by typing python callsign.py followed by the callsign you want to look up.
 For example: python callsign.py W1AW
 
-# Output
+## Output
 The script outputs the following information about the callsign:
 
 Callsign
@@ -25,7 +25,7 @@ License category
 Service
 Expiration date
 
-# License Status
+## License Status
 The script checks the license status and prints one of the following messages:
 
 License is valid.
@@ -36,7 +36,7 @@ License has been cancelled.
 License application is still pending.
 License application has been dismissed.
 
-# Error Handling
+## Error Handling
 The script includes error handling for the following scenarios:
 
 * Invalid API request (incorrect API endpoint, invalid response)
@@ -44,8 +44,8 @@ The script includes error handling for the following scenarios:
 * License data not found
 * If an error occurs, the script will print an error message and then exit.
 
-# Contributing
+## Contributing
 If you find any issues with the script or have suggestions for improvements, please feel free to create a pull request or open an issue.
 
-# License
+## License
 This project is licensed under the GPL-3.0 License.
