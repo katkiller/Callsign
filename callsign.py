@@ -40,7 +40,7 @@ def is_license_valid(license_data):
 
 def main():
     if len(sys.argv) < 2:
-        print("Error: Please provide a ham radio callsign to look up.")
+        print("Error: Please provide a FCC radio callsign to look up.")
         return
 
     callsign = sys.argv[1]
