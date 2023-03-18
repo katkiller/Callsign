@@ -1,4 +1,4 @@
-# Ham Radio Callsign Lookup
+# FCC Radio Callsign Lookup
 This is a Python script that retrieves and displays information about a FCC radio callsign using the FCC Universal Licensing System API. The script looks up all data fields associated with the given callsign and checks if the license is currently active and not expired.
 
 Ham Radio Callsign Lookup
